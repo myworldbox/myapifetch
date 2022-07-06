@@ -1,16 +1,16 @@
 {
   "name": "express-api-vercel",
   "version": "1.0.0",
-  "description": "A simple vercel api using express.js",
+  "description": "A simple express api hosted on vercel",
   "scripts": {
     "dev": "nodemon index.js"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DivideProjects/express-api-vercel.git"
+    "url": "https://github.com/myworldbox/myapifetch.git"
   },
-  "author": "Divanshu Chauhan <techdroidroot@gmail.com>",
+  "author": "myworldbox",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
