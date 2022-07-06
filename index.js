@@ -7,7 +7,10 @@ const port = process.env.PORT || 4000;
 
 var container
 
-app.use(cors());
+app.use(cors({
+    origin: "https://vlblockchain.vercel.app"
+}
+));
 app.set("json spaces", 2);
 app.use(bodyParser.json());
 
