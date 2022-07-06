@@ -14,7 +14,11 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
 
     console.log("\nget -> [ / ]")
-    res.json({ route: "/" });
+    res.json([
+        { intro: "You can make a [ GET / POST ] request to the following routes." },
+        { getRoute: "/api/get" },
+        { postRoute: "/api/post" }
+    ]);
 });
 
 app.get('/api/get', (req, res) => {
@@ -30,7 +34,7 @@ app.post('/api/post', (req, res) => {
 
     container = req.body
 
-    req.body.map((data, i) => console.log("( ",i + 1, " ) - >>", data, " <<"))
+    req.body.map((data, i) => console.log("( ", i + 1, " ) - >>", data, " <<"))
 });
 
 app.listen(port, () => {
