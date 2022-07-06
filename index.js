@@ -2,6 +2,8 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const cors = require('cors');
 
+cons app = express() 
+
 const port = process.env.PORT || 4000;
 
 // prettify json
