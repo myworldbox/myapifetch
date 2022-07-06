@@ -9,7 +9,7 @@ const port = process.env.PORT || 4000;
 // prettify json
 app.set("json spaces", 2);
 
-app.use(cors());
+app.use(cors({origin: true}));
 app.use(bodyParser.json());
 
 // send alive status as json on '/' endpoint
