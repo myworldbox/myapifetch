@@ -1,0 +1,19 @@
+{
+  "name": "express-api-vercel",
+  "version": "1.0.0",
+  "description": "A simple vercel api using express.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DivideProjects/express-api-vercel.git"
+  },
+  "author": "Divanshu Chauhan <techdroidroot@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}
